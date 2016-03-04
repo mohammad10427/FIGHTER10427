@@ -268,6 +268,8 @@ function create_config( )
     "owners",
     "set",
     "get",
+    "music",
+    "lock_eng",
     "broadcast",
     "download_media",
     "invite",
