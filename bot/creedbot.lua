@@ -291,289 +291,167 @@ function create_config( )
    !feedback (your ideas and messages)
 ]],
     help_text_realm = [[
-Realm Commands:
-
+   دستورات ریلم :
 !creategroup [Name]
-Create a group
-
+[ساخت گروه [نام گروه
 !createrealm [Name]
-
-Create a realm
-
+[ساخت ریلم [نام ریلم
 !setname [Name]
-Set realm name
-
-
+[تنظیم نام [نام
 !setabout [GroupID] [Text]
-Set a group's about text
-
-
+[تنظیم درباره گروه [ایدی گروه ][متن
 !setrules [GroupID] [Text]
-Set a group's rules
-
-
+[تنظیم  قوانین گروه [ایدی گروه ][ متن
 !lock [GroupID] [setting]
-Lock a group's setting
-
-
-
+[قفل گروه[ایدی گروه][تنظیمات
 !unlock [GroupID] [setting]
-Unock a group's setting
-
-
+[بازکردن گروه [ایدی گروه ][تنظیمات
 !wholist
-Get a list of members in group/realm
-
-
+ لیست اعضای گروه/ریلم به صورت متن
 !who
-Get a file of members in group/realm
-
-
+لیست اعضای گروه/ریلم درفایل زیپ
 !type
-Get group type
-
-
+نوع گروه 
 !kill chat [GroupID]
-Kick all memebers and delete group ⛔️⛔️
-
-
+[حذف گروه [ایدی گروه
 !kill realm [RealmID]
-Kick all members and delete realm⛔️⛔️
-
-
+[حذف ریلم [ایدی ریلم 
 !addadmin [id|username]
-Promote an admin by id OR username *Sudo only
-
-
-
+[ادمین  اصلی[ایدی |یوزرنیم
 !removeadmin [id|username]
-Demote an admin by id OR username *Sudo only❗️❗️
-
-
+[حذف ادمین اصلی [ایدی|یوزرنیم
+!banall [id|username]
+[سوپر بن کردن افراد[ایدی][یوزرنیم
+!unbanall [id|username]
+[دراوردن از سوپر بن [ایدی][یوزرنیم
 !list groups
-Get a list of all groups
-
-
+لیست گروهای ربات
 !list realms
-Get a list of all realms
-
-
-
+لیست ریلم های ربات
+!plugins 
+دریافت پلاگین های ربات 
+!plugins + name 
+[فعال کردن پلاگین  [نام پلاگین
+!plugins - name 
+[غیر فعال کردن پلاگین [نام پلاگین
+!addplugin [cd plugin]+[name+.lua
+[.lua+اضافه کردن پلاگین [کدهای پلاگین][نام پلاگین
 !log
-Get a logfile of current group or realm
-
-
+دریافت وردی های گروه و ریلم
 !broadcast [text]
-Send text to all groups ✉️
-
-
+[ارسال یک پیام به تمام گروه ها[متن پیام
 !br [group_id] [text]
-This command will send text to [group_id]✉️
-
-
-You Can user both "!" & "/" for them
+[ارسال دستور به گروه[ایدی گروه][متن
+    
+شما میتوانید از دستورات زیر استفاده کنید👇🏻  
+"!" "/" 
 
 
 
 ]],
     help_text = [[
 Creed bots Help for mods : Plugins
-
 Shayan123 : 
 
-
-Help For Banhammer 
-
-!Kick @UserName or ID 
-To kick some body.
-
-!Ban @UserName or ID
-To ban somebody
-
-
-!Unban @UserName
-To un ban somebody
-
-For Admins :
-
-!banall ID
-To ban global somebody
-
-!unbanall ID
-To unban global somebody
-
-〰〰〰〰〰〰〰〰〰〰
-2. GroupManager :
-
-!lock leave
-If somebody leave can't come back!!!
-
-!lock tag
-No body can use @ and #
-
-
-!Creategp "GroupName"
-you can Create group with this comman
-
-
-
-!lock member
-For locking Inviting users
-
-
-
-!lock bots
-for Locking Bots invitation
-
-
-
-!lock name ❤️
-To lock the group name for every bodey
-برای قفل کردن اسم استفاده میشود
-
-
-!settings ❌
-Watch group settings
-
-
-!owner
-watch group owner
-
-
-!setowner user_id❗️
-You can set someone to the group owner‼️
-
-
-!modlist
-catch Group mods
-
-
-!lock join 
-to lock joining the group by link
-
-
-
-!lock flood⚠️
-lock group flood
-
-
-!unlock (bots-member-flood-photo-name-tag-link-join-Arabic)✅
-Unlock Something
-
-
-!rules  && !set rules
-TO see group rules or set rules
-
-
-!about or !set about
-watch about group or set about
-
-
-!res @username
-see Username INfo
-
-
-!who♦️
-Get Ids Chat
-
-
-!log 
-get members id ♠️
-
-
-!all
-Says every thing he knows about a group
-
-
-
-!newlink
-Changes or Makes new group link
-
-
-!getlink
-gets The Group link
-
-
-!linkpv
-sends the group link to the PV
-
-〰〰〰〰〰〰〰〰
-Admins :®
-!add
-to add the group as knows
-
-
-
-!rem
-to remove the group and be unknown
-
-
-!setgpowner (Gpid) user_id ⚫️
-For Set a Owner of group from realm
+     Help For Banhammer 
  
+     دستورات گروه : 
+!kick [ایدی فرد و یا ریپلی پیام او]
+کیک کردن فردی
+!ban [ایدی فرد و یا ریپلی پیام او]
+کیک دائمی فردی
+!unban [ایدی فرد و یا ریپلی پیام او]
+خلاص شدن از کیک دائمی فردی.
+!who
+لیست اعضا در فایل زیپ
+!wholist
+دریافت لیست اعضا به صورت متن
+!modlist
+لیست مدیران گروه
+!promote [ایدی فرد و یا ریپلی پیام او]
+اضافه کردن مدیری به گروه
+!demote [ایدی فرد و یا ریپلی پیام او.]
+حذف کردن فردی از مدیریت در گروه
+!kickme
+خروج از گروه
+!about
+درباره گروه
+!setphoto
+تنظیم عکس  و قفل کردن ان
+!setname [نام]
+تنظیم نام گروه به : نام
+!rules
+قوانین گروه
+!id
+ایدی گروه و با ریپلی کردن پیام فردی ایدی او را نشان میدهد
+!lock [member|name|bots|leave|link|tag|flood]
+ بستن :اعضا-نام-ورود ربات ها-خروج اعضا-لینک-تگ-اسپم
+!unlock [member|name|bots|leave|link|tag|flood]
+بازکردن : اعضا - نام - ورود ربات ها - خروج اعضا-لینک-تگ-اسپم
+!set rules <متن>
+تنظیم قوانین گروه به : متن
+!set about <متن>
+تنظیم درباره گروه به : متن
+!settings
+تنظیمات گروه
+!newlink
+لینک جدید
+!link
+لینک گروه
+!linkpv
+لینک گروه در شخصی
 
-!addadmin [Username]
-to add a Global admin to the bot
+!filter + کیر
+ممنوع کردن استفاده  از کلمه ای در گروه 
 
-
-
-!removeadmin [username]
-to remove an admin from global admins
-
-
-
-!plugins - [plugins]
-To Disable the plugin
-
-
-
-!plugins + [plugins]
-To enable a plugins
-
-
-!plugins ?
-To reload al plugins
-
-
-!plugins
-Shows the list of all plugins
-
-
-!sms [id] (text)
-To send a message to an account by his/her ID
-
-
-
-〰〰〰〰〰〰〰〰〰〰〰
-3. Stats :©
-!stats creedbot (sudoers)✔️
-To see the stats of Eagle bot
-
-
+!filter - کیر
+ازاد کردن استفاده از کلمه ای در گروه
+!بگو سلام 
+تکرار حرف توسط ربات
+!time tehran
+نشان دهنده ساعت
+!celc 2+3
+ماشین حساب
+!lock arabic
+قفل زبان فارسی در گروه
+!unlock arabic
+ازاد کردن زبان فارسی درگروه
+!google بازی 
+سرچ کردن در گوگل 
+!webshot https://google.com
+شات گرفتن از سایت
+!wikifa شاه
+درباره چیزی
+!info [username][reply]
+ [دریافت اطلاعات[یوزرنیم][با ریپلای
+!support
+دعوت ادمین ربات 
+!owner
+ایدی صاحب گروه
+!setowner [ایدی فرد و یا ریپلی پیام او]
+تنظیم صاحب گروه
+!setflood [عدد]
+تنظیم مقدار اسپم : میتواند از عدد 5 شروع شود.
+!lock link
+قفل کردن لینک گذاشتن درگروه
 !stats
-To see the group stats
-
-
-〰〰〰〰〰〰〰〰
-4. Feedback⚫️
-!feedback (text)
-To send your ideas to the Moderation group
-
-
-〰〰〰〰〰〰〰〰〰〰〰
-5. Tagall◻️
-!tagall (text)
-To tags the every one and sends your message at bottom
-
-
-〰〰〰〰〰〰〰〰〰
-More plugins  soon ...
-⚠️ We are Eagle :))
-
-our channel : @eaglebot3
-کانال ما
-
-You Can user both "!" & "/" for them
+نمایش تعداد پیام ها
+!save [نام دستور] <متن>
+ساختن دستور جدید : نام دستور - متن
+!get [نام دستور]
+دریافن دستور
+!clean [modlist|rules|about]
+پاک کردن : لیست مدیران - قوانین - درباره گروه
+!res [username]
+دریافت نام و ایدی فردی. مثال👇
+"!res @mehdijokers"
+!log
+دریافت ورودی های گروه
+!banlist
+لیست افراد بن شده
+شما میتوانید از دستورات زیر استفاده کنید👇
+"!" "/" 
+ سازنده ها: @mehdijokers,@Xx_shah2_kings_Xx  
 
 
 ]]
