@@ -266,6 +266,7 @@ function create_config( )
     "add_bot",
     "time",
     "owners",
+    "welcome",
     "set",
     "get",
     "music",
