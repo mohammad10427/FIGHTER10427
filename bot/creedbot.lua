@@ -278,6 +278,7 @@ function create_config( )
     "download_media",
     "invite",
     "all",
+    "allfa",
     "share_acant",
     "leave_ban"
     },
