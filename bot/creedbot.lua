@@ -205,6 +205,7 @@ function create_config( )
   config = {
     enabled_plugins = {
     "onservice",
+    "ownservicefa",
     "inrealm",
     "inrealmfa",
     "ingroup",
@@ -212,10 +213,13 @@ function create_config( )
     "inpm",
     "inpmfa",
     "banhammer",
+    "banhammberfa",
     "Boobs",
     "Feedback",
     "plugins",
     "lock_join",
+    "lock_joinfa",
+    "antitagfa",
     "antilink",
     "antilinkfa",
     "yoda",
@@ -224,6 +228,7 @@ function create_config( )
     "expand",
     "face",
     "isX",
+    "allfa",
     "magic8ball",
     "pili",
     "qr",
@@ -235,6 +240,7 @@ function create_config( )
     "antitag",
     "gps",
     "auto_leave",
+    "auto_leavefa",
     "wiki",
     "channels",
     "img_google",
@@ -254,13 +260,16 @@ function create_config( )
     "tagall",
     "salam",
     "text",
+    "textfa",
     "info",
     "infofa",
     "bot_on_off",
     "welcome",
     "echo",
     "webshot",
+    "webshotfa",
     "leave",
+    "leave_banfa",
     "sl",
     "filter",
     "botphoto",
@@ -268,17 +277,26 @@ function create_config( )
     "google",
     "sms",
     "anti_spam",
+    "anti-spemfa",
     "add_bot",
     "time",
     "owners",
+    "ownersfa",
     "welcome",
+    "welcomefa",
     "set",
+    "setfa",
     "get",
+    "getfa",
+    "tagallfa",
     "music",
+    "wikifa",
     "lock_eng",
     "broadcast",
+    "broadcastfa",
     "download_media",
     "invite",
+    "invitefa",
     "all",
     "allfa",
     "share_acant",
@@ -295,7 +313,7 @@ function create_config( )
     ‼️ this bot is made by : @shayan123hacker
    〰〰〰〰〰〰〰〰
    ߔࠀ   our admins are : 
-   ߔࠀ   @shayan123hacker  〰〰〰〰〰〰〰〰
+   ߔࠀ   @mehdijockers_@Xx_shah2_kings_Xx 〰〰〰〰〰〰〰〰
   ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
    تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
    !feedback (your ideas and messages)
@@ -461,7 +479,7 @@ Shayan123 :
 لیست افراد بن شده
 شما میتوانید از دستورات زیر استفاده کنید👇
 "!" "/" 
- سازنده ها: @mehdijokers,@Xx_shah2_kings_Xx  
+ سازنده ها: @mehdijokers__@Xx_shah2_kings_Xx  
 ادرس کانال ربات:@kingsunion    
 
 
