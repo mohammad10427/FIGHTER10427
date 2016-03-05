@@ -206,6 +206,7 @@ function create_config( )
     enabled_plugins = {
     "onservice",
     "inrealm",
+    "inrealmfa",
     "ingroup",
     "ingroupfa",
     "inpm",
@@ -216,6 +217,7 @@ function create_config( )
     "plugins",
     "lock_join",
     "antilink",
+    "antilinkfa",
     "yoda",
     "danbooru",
     "dogify",
