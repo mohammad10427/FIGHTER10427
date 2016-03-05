@@ -209,6 +209,7 @@ function create_config( )
     "ingroup",
     "ingroupfa",
     "inpm",
+    "inpmfa",
     "banhammer",
     "Boobs",
     "Feedback",
