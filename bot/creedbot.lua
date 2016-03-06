@@ -206,6 +206,7 @@ function create_config( )
     enabled_plugins = {
     "onservice",
     "inrealm",
+    "adadmin",
     "ingroup",
     "inpm",
     "banhammer",
