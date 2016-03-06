@@ -223,6 +223,7 @@ function create_config( )
     "magic8ball",
     "pili",
     "qr",
+    "info",
     "quotes",
     "trivia",
     "vote",
