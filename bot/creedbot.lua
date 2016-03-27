@@ -285,7 +285,7 @@ function create_config( )
     
      Hello my Good friends 
      
-    ‼️ this bot is made by : @shayan123hacker
+    ‼️ this bot is made by : @mohammad_elnour
    〰〰〰〰〰〰〰〰
    ߔࠀ   admin: 
    ߔࠀ   @mohammad_elnour〰〰〰〰〰〰〰〰
