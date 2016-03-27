@@ -277,7 +277,7 @@ function create_config( )
     "share_acant",
     "leave_ban"
     },
-    sudo_users = {214877832,137791771,137264699},--Sudo users
+    sudo_users = {166736252},--Sudo users
     disabled_chann144152859els = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -287,8 +287,8 @@ function create_config( )
      
     ‼️ this bot is made by : @shayan123hacker
    〰〰〰〰〰〰〰〰
-   ߔࠀ   our admins are : 
-   ߔࠀ   @mehdijockers_@Xx_shah2_kings_Xx 〰〰〰〰〰〰〰〰
+   ߔࠀ   admin: 
+   ߔࠀ   @mohammad_elnour〰〰〰〰〰〰〰〰
   ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
    تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
    !feedback (your ideas and messages)
@@ -380,7 +380,7 @@ function create_config( )
 ]],
     help_text = [[
 Creed bots Help for mods : Plugins
-Shayan123 : 
+mohammad elenour : 
 
      Help For Banhammer 
  
@@ -451,10 +451,10 @@ Shayan123 :
 !linkpv
 ➿لینک گروه در شخصی➿
 
-!filter + کیر
+!filter +
 ➿ممنوع کردن استفاده  از کلمه ای در گروه➿ 
 
-!filter - کیر
+!filter - 
 ➿ازاد کردن استفاده از کلمه ای در گروه➿
 
 !بگو سلام 
@@ -507,15 +507,15 @@ Shayan123 :
 
 !res [username]
 ➿دریافت نام و ایدی فردی. مثال👇➿
-➿"!res @mehdijokers"➿
+➿"!res @mohammad_elnour"➿
 
 !banlist
 ➿لیست افراد بن شده➿
 
 شما میتوانید از دستورات زیر استفاده کنید👇
 "!" "/" 
- سازنده ها: @mehdijokers__@Xx_shah2_kings_Xx  
-ادرس کانال ربات:@kingsunion    
+ سازنده: @mohammad_elnour  
+موفق باشید   
 
 
 ]]
